@@ -3,6 +3,8 @@
 $global-radius: 4px;
 
 // Colors
+$black: #000 !default;
+
 $blue-05: #AAF2FF !default;
 $blue-10: #80EBFF !default;
 $blue-20: #00DDFF !default;
@@ -50,3 +52,19 @@ $white: #FFFFFF !default;
 
 $yellow-40: #FFBD4F !default;
 $yellow-50: #FFA436 !default;
+
+// Buttons
+$button-primary-bgcolor: $blue-50;
+$button-primary-hover-bgcolor: $blue-60;
+$button-primary-active-bgcolor: $blue-70;
+$button-primary-color: $light-grey-05;
+
+$button-secondary-bgcolor: $light-grey-20;
+$button-secondary-hover-bgcolor: $light-grey-30;
+$button-secondary-active-bgcolor: $light-grey-40;
+$button-secondary-color: $dark-grey-90;
+
+$button-destructive-bgcolor: $red-60;
+$button-destructive-hover-bgcolor: $red-70;
+$button-destructive-active-bgcolor: $red-80;
+$button-destructive-color: $light-grey-05;

@@ -4,41 +4,40 @@ button,
   border-radius: $global-radius;
   font-size: 1em;
   font-weight: 500;
-  height: 32px;
-  padding: 4px 16px;
-  min-height: 32px;
+  padding: 8px 16px;
   text-decoration: none;
 
   &.btn-primary {
-    background-color: $blue-50;
-    color: $light-grey-05;
+    background-color: $button-primary-bgcolor;
+    color: $button-primary-color;
   }
   &.btn-primary:hover {
-    background-color: $blue-60;
+    background-color: $button-primary-hover-bgcolor;
   }
   &.btn-primary:active {
-    background-color: $blue-70;
+    background-color: $button-primary-active-bgcolor;
   }
 
   &.btn-secondary {
-    background-color: $light-grey-20;
-    color: $dark-grey-90;
+    background-color: $button-secondary-bgcolor;
+    color: $button-secondary-color;
   }
   &.btn-secondary:hover {
-    background-color: $light-grey-30;
+    background-color: $button-secondary-bgcolor;
   }
   &.btn-secondary:active {
-    background-color: $light-grey-40;
+    background-color: $button-secondary-bgcolor;
   }
 
   &.btn-destructive {
-    background-color: $red-60;
-    color: $light-grey-05;
+    background-color: $button-destructive-bgcolor;
+    color: $button-destructive-color;
   }
   &.btn-destructive:hover {
-    background-color: $red-70;
+    background-color: $button-destructive-bgcolor;
   }
   &.btn-destructive:active {
-    background-color: $red-80;
+    background-color: $button-destructive-bgcolor;
   }
 }
+
