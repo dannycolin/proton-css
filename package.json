@@ -4,7 +4,7 @@
   "description": "A CSS framework for the Proton Design System",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node scripts/watch.js"
   },
   "repository": {
     "type": "git",
@@ -13,10 +13,10 @@
   "keywords": [
     "Firefox",
     "Mozilla",
-    "Design",
-    "System",
+    "Design System",
     "Proton",
-    "CSS"
+    "CSS",
+    "SCSS"
   ],
   "author": "Danny Colin",
   "license": "MPL-2.0",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/dannycolin/proton-css#readme",
   "devDependencies": {
+    "chokidar": "^3.5.3",
     "sass": "^1.51.0",
     "stylelint": "^14.8.2"
   }
