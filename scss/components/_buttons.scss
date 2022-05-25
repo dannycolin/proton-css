@@ -1,0 +1,44 @@
+button,
+.btn {
+  border: none;
+  border-radius: $global-radius;
+  font-size: 1em;
+  font-weight: 500;
+  height: 32px;
+  padding: 4px 16px;
+  min-height: 32px;
+  text-decoration: none;
+
+  &.btn-primary {
+    background-color: $blue-50;
+    color: $light-grey-05;
+  }
+  &.btn-primary:hover {
+    background-color: $blue-60;
+  }
+  &.btn-primary:active {
+    background-color: $blue-70;
+  }
+
+  &.btn-secondary {
+    background-color: $light-grey-20;
+    color: $dark-grey-90;
+  }
+  &.btn-secondary:hover {
+    background-color: $light-grey-30;
+  }
+  &.btn-secondary:active {
+    background-color: $light-grey-40;
+  }
+
+  &.btn-destructive {
+    background-color: $red-60;
+    color: $light-grey-05;
+  }
+  &.btn-destructive:hover {
+    background-color: $red-70;
+  }
+  &.btn-destructive:active {
+    background-color: $red-80;
+  }
+}
