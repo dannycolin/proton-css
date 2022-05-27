@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "A CSS framework for the Proton Design System",
   "main": "index.js",
-  "scripts": {
-    "watch": "node scripts/watch.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannycolin/proton-css.git"
@@ -25,8 +22,9 @@
   },
   "homepage": "https://github.com/dannycolin/proton-css#readme",
   "devDependencies": {
-    "chokidar": "^3.5.3",
-    "sass": "^1.51.0",
-    "stylelint": "^14.8.2"
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.1"
   }
 }
